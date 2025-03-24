@@ -27,7 +27,7 @@ const Header = () => {
           </Button>
         </div>
       </div>
-      <div className="container flex gap-1">
+      <div className="container flex gap-1 overflow-x-auto scrollbar">
         {ServiceList.map((item) => (
           <Button
             key={item.id}

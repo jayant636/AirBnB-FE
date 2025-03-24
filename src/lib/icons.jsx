@@ -1,11 +1,27 @@
 import {
   Bed,
+  CalendarDays,
   CarFront,
   CarTaxiFront,
+  Check,
+  ChevronDown,
+  CircleCheck,
+  Dot,
+  Eye,
   FerrisWheel,
   Gem,
+  GemIcon,
+  Heart,
+  Info,
+  MapPin,
+  Minus,
   Plane,
+  Plug,
+  Star,
   Stars,
+  User2,
+  X,
+  Zap,
 } from 'lucide-react';
 
 export default {
@@ -14,6 +30,8 @@ export default {
   car: CarFront,
   attractions: FerrisWheel,
   taxi: CarTaxiFront,
+  gem: GemIcon,
+  star: Star,
   twitter: ({ size, ...props }) => (
     <svg
       width={size}
@@ -79,4 +97,18 @@ export default {
       <path d="M9 12V12C4.58172 12 1 8.41828 1 4L1 0"></path>
     </svg>
   ),
+  heart: Heart,
+  check: Check,
+  circleCheck: CircleCheck,
+  zap: Zap,
+  info: Info,
+  eye: Eye,
+  close: X,
+  location: MapPin,
+  calendar: CalendarDays,
+  user: User2,
+  dropdown: ChevronDown,
+  minus: Minus,
+  plus: Plug,
+  dot: Dot,
 };
