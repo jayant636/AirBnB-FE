@@ -1,3 +1,4 @@
+import { SignInPage, SignUpPage } from './app/Auth/AuthPage';
 import Home from './app/home';
 import Hotel_Details from './app/hotel-details/Hotel_Details';
 import Footer from './components/layouts/Footer';
@@ -7,7 +8,10 @@ function App() {
   return (
     <>
       <Header />
-      <Hotel_Details />
+      <Home />
+      {/* <Hotel_Details /> */}
+      {/* <SignUpPage /> */}
+      {/* <SignInPage /> */}
       <Footer />
     </>
   );
