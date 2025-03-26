@@ -17,6 +17,7 @@ import {
   Minus,
   Plane,
   Plug,
+  Plus,
   Star,
   Stars,
   User2,
@@ -109,6 +110,6 @@ export default {
   user: User2,
   dropdown: ChevronDown,
   minus: Minus,
-  plus: Plug,
+  plus: Plus,
   dot: Dot,
 };
